@@ -1,0 +1,2 @@
+# GCTNet
+python train.py
