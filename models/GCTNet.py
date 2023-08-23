@@ -238,7 +238,7 @@ class MultiHeadAttention(nn.Module):
         att = F.softmax(energy / scaling, dim=-1)
         att = self.att_drop(att)
         out = torch.einsum('bhal, bhlv -> bhav ', att, values)
-        out = torch.matmul(att, values)
+        # out = torch.matmul(att, values)
         out = rearrange(out, "b h t d -> b t (h d)")
         out = self.projection(out)
         return out
