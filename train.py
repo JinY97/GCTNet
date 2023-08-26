@@ -4,6 +4,8 @@ Date: 2022-03-08 19:50:50
 LastEditTime: 2023-04-24 19:02:10
 LastEditors: JinYin
 '''
+
+import torch.nn.functional as F
 import argparse, torch
 from matplotlib.font_manager import weight_dict
 import torch.optim as optim
@@ -22,6 +24,8 @@ import torch.nn as nn
 
 from preprocess.DenoisenetPreprocess import *
 from tools import pick_models
+
+from torchsummary import summary as summary
 
 loss_type = "feature+cls" 
 if loss_type == "feature":
@@ -66,7 +70,7 @@ def train(opts, model, train_log_dir, val_log_dir, data_save_path, fold):
     val_data = EEGwithNoise(EEG_val_data, NOS_val_data, opts.batch_size)
     test_data = EEGwithNoise(EEG_test_data, NOS_test_data, opts.batch_size)
     
-    model_d = Discriminator().to('cuda:0')
+    model_d = Discriminator().to('cuda:5')
     
     model_d.apply(weights_init)
     model.apply(weights_init)
@@ -195,8 +199,8 @@ def train(opts, model, train_log_dir, val_log_dir, data_save_path, fold):
         print('epoch: {:3d}, train_loss:{:.4f}, test_rrmse: {:.4f}, acc: {:.4f}, snr: {:.4f}'.format(epoch, train_loss, test_rrmse, sum_acc, sum_snr))
         f.write('epoch: {:3d}, test_rrmse: {:.4f}, acc: {:.4f}, snr: {:.4f}'.format(epoch, test_rrmse, sum_acc, sum_snr) + "\n")
 
-    with open(os.path.join('./logs/Denoisenet/{}/{}_{}_{}.log'.format(opts.noise_type, opts.denoise_network, w_c, w_f)), 'a+') as fp:
-        fp.write('fold:{}, test_rrmse: {:.4f}, acc: {:.4f}, snr: {:.4f}'.format(fold, best_rrmse, best_acc, best_snr) + "\n")
+    #with open(os.path.join('./logs/Denoisenet/{}/{}_{}_{}.log'.format(opts.noise_type, opts.denoise_network, w_c, w_f)), 'a+') as fp:
+    #    fp.write('fold:{}, test_rrmse: {:.4f}, acc: {:.4f}, snr: {:.4f}'.format(fold, best_rrmse, best_acc, best_snr) + "\n")
     
     if opts.save_result:
         np.save(f"{data_save_path}/last_input_data.npy", test_data.EEG_data)
@@ -210,16 +214,17 @@ if __name__ == '__main__':
     opts.epochs = 200        # 50 200
     opts.depth = 6
     opts.noise_type = 'Hybrid'     # EMG EOG Hybrid
-    opts.denoise_network = 'GCTNet'
+    opts.denoise_network = 'BG'
 
     opts.EEG_path = "./data/EEG_shuffle.npy"
     opts.NOS_path = f"./data/{opts.noise_type}_shuffle.npy"
-    opts.save_path = "./results/{}/{}/".format(opts.noise_type, opts.denoise_network)
+    opts.save_path = "./results_SNR/{}/{}/".format(opts.noise_type, opts.denoise_network)
 
     for fold in range(10):
         print(f"fold:{fold}")
-        model = pick_models(opts, data_num=512)
+        model = pick_models(opts, data_num=512, embedding=1)
         print(opts.denoise_network)
+        #summary(model, (3400,512))
         
         foldername = '{}_{}_{}_{}_{}_{}'.format(opts.denoise_network, opts.noise_type, opts.epochs, fold, w_c, w_f)
             
@@ -237,5 +242,3 @@ if __name__ == '__main__':
             os.makedirs(data_save_path)
 
         train(opts, model, train_log_dir, val_log_dir, data_save_path, fold)
-
-

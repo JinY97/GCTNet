@@ -1,0 +1,225 @@
+Save best result 
+epoch:   0, test_rrmse: 0.5218, acc: 0.8574, snr: 5.8731
+Save best result 
+epoch:   1, test_rrmse: 0.4960, acc: 0.8711, snr: 6.2264
+Save best result 
+epoch:   2, test_rrmse: 0.4520, acc: 0.8897, snr: 7.1127
+Save best result 
+epoch:   3, test_rrmse: 0.4138, acc: 0.9073, snr: 7.8985
+Save best result 
+epoch:   4, test_rrmse: 0.4038, acc: 0.9149, snr: 8.1247
+Save best result 
+epoch:   5, test_rrmse: 0.3879, acc: 0.9186, snr: 8.5621
+Save best result 
+epoch:   6, test_rrmse: 0.3789, acc: 0.9221, snr: 8.7933
+Save best result 
+epoch:   7, test_rrmse: 0.3612, acc: 0.9260, snr: 9.3371
+epoch:   8, test_rrmse: 0.4106, acc: 0.9195, snr: 8.5482
+Save best result 
+epoch:   9, test_rrmse: 0.3523, acc: 0.9306, snr: 9.5432
+Save best result 
+epoch:  10, test_rrmse: 0.3365, acc: 0.9330, snr: 10.0723
+Save best result 
+epoch:  11, test_rrmse: 0.3283, acc: 0.9352, snr: 10.3463
+Save best result 
+epoch:  12, test_rrmse: 0.3260, acc: 0.9355, snr: 10.4946
+Save best result 
+epoch:  13, test_rrmse: 0.3222, acc: 0.9377, snr: 10.5858
+Save best result 
+epoch:  14, test_rrmse: 0.3089, acc: 0.9402, snr: 11.0670
+Save best result 
+epoch:  15, test_rrmse: 0.2989, acc: 0.9426, snr: 11.4137
+epoch:  16, test_rrmse: 0.3051, acc: 0.9404, snr: 11.3394
+Save best result 
+epoch:  17, test_rrmse: 0.2989, acc: 0.9418, snr: 11.5630
+Save best result 
+epoch:  18, test_rrmse: 0.2899, acc: 0.9448, snr: 11.8373
+epoch:  19, test_rrmse: 0.2907, acc: 0.9455, snr: 11.7272
+Save best result 
+epoch:  20, test_rrmse: 0.2936, acc: 0.9430, snr: 11.8577
+epoch:  21, test_rrmse: 0.3023, acc: 0.9405, snr: 11.7479
+Save best result 
+epoch:  22, test_rrmse: 0.2810, acc: 0.9468, snr: 12.2599
+epoch:  23, test_rrmse: 0.2835, acc: 0.9463, snr: 12.1223
+epoch:  24, test_rrmse: 0.2845, acc: 0.9454, snr: 12.3205
+Save best result 
+epoch:  25, test_rrmse: 0.2778, acc: 0.9483, snr: 12.5212
+Save best result 
+epoch:  26, test_rrmse: 0.2716, acc: 0.9489, snr: 12.7100
+epoch:  27, test_rrmse: 0.2840, acc: 0.9448, snr: 12.4417
+epoch:  28, test_rrmse: 0.2719, acc: 0.9491, snr: 12.6598
+Save best result 
+epoch:  29, test_rrmse: 0.2680, acc: 0.9496, snr: 12.8577
+epoch:  30, test_rrmse: 0.2710, acc: 0.9488, snr: 12.7890
+epoch:  31, test_rrmse: 0.2708, acc: 0.9491, snr: 12.8585
+epoch:  32, test_rrmse: 0.2714, acc: 0.9492, snr: 12.9481
+Save best result 
+epoch:  33, test_rrmse: 0.2669, acc: 0.9498, snr: 13.0895
+epoch:  34, test_rrmse: 0.2709, acc: 0.9495, snr: 12.9537
+epoch:  35, test_rrmse: 0.2722, acc: 0.9499, snr: 12.9505
+epoch:  36, test_rrmse: 0.2692, acc: 0.9492, snr: 12.9787
+epoch:  37, test_rrmse: 0.2735, acc: 0.9483, snr: 12.7240
+Save best result 
+epoch:  38, test_rrmse: 0.2683, acc: 0.9494, snr: 13.0496
+epoch:  39, test_rrmse: 0.2666, acc: 0.9503, snr: 13.2520
+epoch:  40, test_rrmse: 0.2711, acc: 0.9493, snr: 12.9712
+epoch:  41, test_rrmse: 0.2675, acc: 0.9495, snr: 13.2685
+Save best result 
+epoch:  42, test_rrmse: 0.2643, acc: 0.9502, snr: 13.4036
+epoch:  43, test_rrmse: 0.2673, acc: 0.9496, snr: 13.2319
+epoch:  44, test_rrmse: 0.2676, acc: 0.9492, snr: 13.2535
+epoch:  45, test_rrmse: 0.2676, acc: 0.9498, snr: 13.2637
+epoch:  46, test_rrmse: 0.2646, acc: 0.9506, snr: 13.3636
+epoch:  47, test_rrmse: 0.2653, acc: 0.9505, snr: 13.3776
+epoch:  48, test_rrmse: 0.2670, acc: 0.9500, snr: 13.3253
+epoch:  49, test_rrmse: 0.2695, acc: 0.9495, snr: 13.2509
+epoch:  50, test_rrmse: 0.2618, acc: 0.9508, snr: 13.4293
+epoch:  51, test_rrmse: 0.2697, acc: 0.9488, snr: 13.1850
+epoch:  52, test_rrmse: 0.2664, acc: 0.9499, snr: 13.2931
+epoch:  53, test_rrmse: 0.2642, acc: 0.9503, snr: 13.4184
+epoch:  54, test_rrmse: 0.2638, acc: 0.9502, snr: 13.3620
+epoch:  55, test_rrmse: 0.2626, acc: 0.9503, snr: 13.4732
+epoch:  56, test_rrmse: 0.2677, acc: 0.9498, snr: 13.3415
+epoch:  57, test_rrmse: 0.2643, acc: 0.9501, snr: 13.4318
+epoch:  58, test_rrmse: 0.2683, acc: 0.9495, snr: 13.3861
+epoch:  59, test_rrmse: 0.2633, acc: 0.9501, snr: 13.5194
+epoch:  60, test_rrmse: 0.2646, acc: 0.9504, snr: 13.2340
+epoch:  61, test_rrmse: 0.2671, acc: 0.9495, snr: 13.1597
+epoch:  62, test_rrmse: 0.2666, acc: 0.9497, snr: 13.4553
+epoch:  63, test_rrmse: 0.2632, acc: 0.9497, snr: 13.5065
+epoch:  64, test_rrmse: 0.2631, acc: 0.9501, snr: 13.5843
+epoch:  65, test_rrmse: 0.2660, acc: 0.9502, snr: 13.2814
+epoch:  66, test_rrmse: 0.2646, acc: 0.9496, snr: 13.3728
+epoch:  67, test_rrmse: 0.2673, acc: 0.9494, snr: 13.4298
+epoch:  68, test_rrmse: 0.2641, acc: 0.9498, snr: 13.4742
+epoch:  69, test_rrmse: 0.2675, acc: 0.9493, snr: 13.4465
+epoch:  70, test_rrmse: 0.2667, acc: 0.9500, snr: 13.5124
+epoch:  71, test_rrmse: 0.2652, acc: 0.9497, snr: 13.4564
+epoch:  72, test_rrmse: 0.2681, acc: 0.9491, snr: 13.4342
+epoch:  73, test_rrmse: 0.2656, acc: 0.9499, snr: 13.4541
+epoch:  74, test_rrmse: 0.2668, acc: 0.9494, snr: 13.4755
+epoch:  75, test_rrmse: 0.2647, acc: 0.9494, snr: 13.5096
+epoch:  76, test_rrmse: 0.2667, acc: 0.9494, snr: 13.5316
+epoch:  77, test_rrmse: 0.2668, acc: 0.9496, snr: 13.4534
+epoch:  78, test_rrmse: 0.2657, acc: 0.9493, snr: 13.4844
+epoch:  79, test_rrmse: 0.2678, acc: 0.9492, snr: 13.4535
+epoch:  80, test_rrmse: 0.2665, acc: 0.9492, snr: 13.5349
+epoch:  81, test_rrmse: 0.2662, acc: 0.9496, snr: 13.5217
+epoch:  82, test_rrmse: 0.2644, acc: 0.9493, snr: 13.6053
+epoch:  83, test_rrmse: 0.2672, acc: 0.9490, snr: 13.4264
+epoch:  84, test_rrmse: 0.2678, acc: 0.9488, snr: 13.5071
+epoch:  85, test_rrmse: 0.2674, acc: 0.9488, snr: 13.5428
+epoch:  86, test_rrmse: 0.2649, acc: 0.9489, snr: 13.5381
+epoch:  87, test_rrmse: 0.2683, acc: 0.9491, snr: 13.5061
+epoch:  88, test_rrmse: 0.2664, acc: 0.9492, snr: 13.5777
+epoch:  89, test_rrmse: 0.2691, acc: 0.9488, snr: 13.4695
+epoch:  90, test_rrmse: 0.2698, acc: 0.9485, snr: 13.4457
+epoch:  91, test_rrmse: 0.2688, acc: 0.9488, snr: 13.4831
+epoch:  92, test_rrmse: 0.2673, acc: 0.9487, snr: 13.5685
+epoch:  93, test_rrmse: 0.2667, acc: 0.9485, snr: 13.5469
+epoch:  94, test_rrmse: 0.2661, acc: 0.9487, snr: 13.5966
+epoch:  95, test_rrmse: 0.2664, acc: 0.9489, snr: 13.5782
+epoch:  96, test_rrmse: 0.2668, acc: 0.9489, snr: 13.5763
+epoch:  97, test_rrmse: 0.2700, acc: 0.9485, snr: 13.4922
+epoch:  98, test_rrmse: 0.2647, acc: 0.9491, snr: 13.6384
+epoch:  99, test_rrmse: 0.2674, acc: 0.9486, snr: 13.5367
+epoch: 100, test_rrmse: 0.2671, acc: 0.9490, snr: 13.5284
+epoch: 101, test_rrmse: 0.2664, acc: 0.9489, snr: 13.6007
+epoch: 102, test_rrmse: 0.2736, acc: 0.9485, snr: 13.3848
+epoch: 103, test_rrmse: 0.2635, acc: 0.9487, snr: 13.6506
+epoch: 104, test_rrmse: 0.2715, acc: 0.9486, snr: 13.4726
+epoch: 105, test_rrmse: 0.2649, acc: 0.9489, snr: 13.6554
+epoch: 106, test_rrmse: 0.2641, acc: 0.9489, snr: 13.6600
+epoch: 107, test_rrmse: 0.2650, acc: 0.9490, snr: 13.6033
+epoch: 108, test_rrmse: 0.2668, acc: 0.9488, snr: 13.6648
+epoch: 109, test_rrmse: 0.2641, acc: 0.9487, snr: 13.7045
+epoch: 110, test_rrmse: 0.2668, acc: 0.9482, snr: 13.6234
+epoch: 111, test_rrmse: 0.2653, acc: 0.9488, snr: 13.6964
+epoch: 112, test_rrmse: 0.2682, acc: 0.9485, snr: 13.6060
+epoch: 113, test_rrmse: 0.2709, acc: 0.9485, snr: 13.5034
+epoch: 114, test_rrmse: 0.2708, acc: 0.9486, snr: 13.5305
+epoch: 115, test_rrmse: 0.2693, acc: 0.9479, snr: 13.5982
+epoch: 116, test_rrmse: 0.2655, acc: 0.9485, snr: 13.7356
+epoch: 117, test_rrmse: 0.2647, acc: 0.9485, snr: 13.7187
+epoch: 118, test_rrmse: 0.2650, acc: 0.9487, snr: 13.7091
+epoch: 119, test_rrmse: 0.2671, acc: 0.9484, snr: 13.6566
+epoch: 120, test_rrmse: 0.2723, acc: 0.9476, snr: 13.4197
+epoch: 121, test_rrmse: 0.2680, acc: 0.9483, snr: 13.6708
+epoch: 122, test_rrmse: 0.2649, acc: 0.9484, snr: 13.5883
+epoch: 123, test_rrmse: 0.2669, acc: 0.9483, snr: 13.6449
+epoch: 124, test_rrmse: 0.2636, acc: 0.9487, snr: 13.6966
+epoch: 125, test_rrmse: 0.2740, acc: 0.9472, snr: 13.3665
+epoch: 126, test_rrmse: 0.2663, acc: 0.9481, snr: 13.6760
+epoch: 127, test_rrmse: 0.2676, acc: 0.9480, snr: 13.7127
+epoch: 128, test_rrmse: 0.2671, acc: 0.9482, snr: 13.7259
+epoch: 129, test_rrmse: 0.2670, acc: 0.9479, snr: 13.7315
+epoch: 130, test_rrmse: 0.2664, acc: 0.9483, snr: 13.7388
+epoch: 131, test_rrmse: 0.2664, acc: 0.9487, snr: 13.7581
+epoch: 132, test_rrmse: 0.2699, acc: 0.9483, snr: 13.6357
+epoch: 133, test_rrmse: 0.2676, acc: 0.9482, snr: 13.7444
+epoch: 134, test_rrmse: 0.2659, acc: 0.9484, snr: 13.7495
+epoch: 135, test_rrmse: 0.2661, acc: 0.9484, snr: 13.7684
+epoch: 136, test_rrmse: 0.2654, acc: 0.9479, snr: 13.7796
+epoch: 137, test_rrmse: 0.2649, acc: 0.9488, snr: 13.7083
+epoch: 138, test_rrmse: 0.2661, acc: 0.9482, snr: 13.7668
+epoch: 139, test_rrmse: 0.2674, acc: 0.9485, snr: 13.7044
+epoch: 140, test_rrmse: 0.2655, acc: 0.9480, snr: 13.7451
+epoch: 141, test_rrmse: 0.2685, acc: 0.9478, snr: 13.6542
+epoch: 142, test_rrmse: 0.2719, acc: 0.9481, snr: 13.5968
+epoch: 143, test_rrmse: 0.2699, acc: 0.9480, snr: 13.6163
+epoch: 144, test_rrmse: 0.2659, acc: 0.9483, snr: 13.7617
+epoch: 145, test_rrmse: 0.2664, acc: 0.9483, snr: 13.6944
+epoch: 146, test_rrmse: 0.2667, acc: 0.9482, snr: 13.5765
+epoch: 147, test_rrmse: 0.2682, acc: 0.9483, snr: 13.6068
+epoch: 148, test_rrmse: 0.2697, acc: 0.9481, snr: 13.6476
+epoch: 149, test_rrmse: 0.2688, acc: 0.9480, snr: 13.6546
+epoch: 150, test_rrmse: 0.2664, acc: 0.9483, snr: 13.6812
+epoch: 151, test_rrmse: 0.2670, acc: 0.9483, snr: 13.7016
+epoch: 152, test_rrmse: 0.2659, acc: 0.9487, snr: 13.7100
+epoch: 153, test_rrmse: 0.2688, acc: 0.9483, snr: 13.7050
+epoch: 154, test_rrmse: 0.2712, acc: 0.9485, snr: 13.6454
+epoch: 155, test_rrmse: 0.2661, acc: 0.9481, snr: 13.7082
+epoch: 156, test_rrmse: 0.2681, acc: 0.9482, snr: 13.7511
+epoch: 157, test_rrmse: 0.2657, acc: 0.9484, snr: 13.7098
+epoch: 158, test_rrmse: 0.2699, acc: 0.9486, snr: 13.6631
+epoch: 159, test_rrmse: 0.2714, acc: 0.9477, snr: 13.6343
+epoch: 160, test_rrmse: 0.2710, acc: 0.9479, snr: 13.6424
+epoch: 161, test_rrmse: 0.2685, acc: 0.9484, snr: 13.7066
+epoch: 162, test_rrmse: 0.2682, acc: 0.9479, snr: 13.6814
+epoch: 163, test_rrmse: 0.2674, acc: 0.9480, snr: 13.7310
+epoch: 164, test_rrmse: 0.2687, acc: 0.9483, snr: 13.6985
+epoch: 165, test_rrmse: 0.2721, acc: 0.9480, snr: 13.6216
+epoch: 166, test_rrmse: 0.2706, acc: 0.9479, snr: 13.5549
+epoch: 167, test_rrmse: 0.2681, acc: 0.9480, snr: 13.6837
+epoch: 168, test_rrmse: 0.2719, acc: 0.9479, snr: 13.6460
+epoch: 169, test_rrmse: 0.2674, acc: 0.9480, snr: 13.7694
+epoch: 170, test_rrmse: 0.2727, acc: 0.9477, snr: 13.6077
+epoch: 171, test_rrmse: 0.2675, acc: 0.9482, snr: 13.7707
+epoch: 172, test_rrmse: 0.2698, acc: 0.9481, snr: 13.6956
+epoch: 173, test_rrmse: 0.2678, acc: 0.9478, snr: 13.7617
+epoch: 174, test_rrmse: 0.2716, acc: 0.9479, snr: 13.6622
+epoch: 175, test_rrmse: 0.2686, acc: 0.9479, snr: 13.7101
+epoch: 176, test_rrmse: 0.2712, acc: 0.9477, snr: 13.6801
+epoch: 177, test_rrmse: 0.2729, acc: 0.9479, snr: 13.5701
+epoch: 178, test_rrmse: 0.2713, acc: 0.9476, snr: 13.6551
+epoch: 179, test_rrmse: 0.2681, acc: 0.9475, snr: 13.7290
+epoch: 180, test_rrmse: 0.2674, acc: 0.9478, snr: 13.7823
+epoch: 181, test_rrmse: 0.2675, acc: 0.9484, snr: 13.8000
+epoch: 182, test_rrmse: 0.2656, acc: 0.9483, snr: 13.7903
+epoch: 183, test_rrmse: 0.2679, acc: 0.9480, snr: 13.7642
+epoch: 184, test_rrmse: 0.2706, acc: 0.9478, snr: 13.7250
+epoch: 185, test_rrmse: 0.2698, acc: 0.9479, snr: 13.7348
+epoch: 186, test_rrmse: 0.2671, acc: 0.9480, snr: 13.7986
+epoch: 187, test_rrmse: 0.2692, acc: 0.9476, snr: 13.7676
+epoch: 188, test_rrmse: 0.2667, acc: 0.9478, snr: 13.8183
+epoch: 189, test_rrmse: 0.2716, acc: 0.9467, snr: 13.5346
+epoch: 190, test_rrmse: 0.2710, acc: 0.9476, snr: 13.6605
+epoch: 191, test_rrmse: 0.2692, acc: 0.9477, snr: 13.7202
+epoch: 192, test_rrmse: 0.2697, acc: 0.9476, snr: 13.7199
+epoch: 193, test_rrmse: 0.2708, acc: 0.9475, snr: 13.7142
+epoch: 194, test_rrmse: 0.2705, acc: 0.9476, snr: 13.7161
+epoch: 195, test_rrmse: 0.2682, acc: 0.9477, snr: 13.7447
+epoch: 196, test_rrmse: 0.2676, acc: 0.9480, snr: 13.7979
+epoch: 197, test_rrmse: 0.2694, acc: 0.9474, snr: 13.7330
+epoch: 198, test_rrmse: 0.2678, acc: 0.9480, snr: 13.8288
+epoch: 199, test_rrmse: 0.2680, acc: 0.9476, snr: 13.7836

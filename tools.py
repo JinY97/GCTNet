@@ -17,9 +17,9 @@ from scipy import signal
 from matplotlib import pyplot as plt
 from audtorch.metrics.functional import pearsonr
 
-def pick_models(opts, data_num=512):
+def pick_models(opts, data_num=512, embedding=1):
     if opts.denoise_network == 'SimpleCNN':
-            model = SimpleCNN(data_num).to(opts.device)
+        model = SimpleCNN(data_num).to(opts.device)
                      
     elif opts.denoise_network == 'FCNN':  
         model = FCNN(data_num).to(opts.device)
@@ -41,9 +41,12 @@ def pick_models(opts, data_num=512):
     
     elif opts.denoise_network == 'DuoCL':
         model = DuoCL(data_num).to(opts.device)
+
+    elif opts.denoise_network == 'BG':
+        model = BG(data_num, embedding).to(opts.device)
         
     else:
         print("model name is error!")
         pass
+
     return model
-    

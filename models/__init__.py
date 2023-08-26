@@ -6,5 +6,5 @@ LastEditTime: 2023-04-24 17:06:14
 FilePath: \GCTNet\models\__init__.py
 '''
 from models.DuoCL import DuoCL
-from models.Models import FCNN, SimpleCNN, ResCNN, NovelCNN
+from models.Models import FCNN, SimpleCNN, ResCNN, NovelCNN, BG
 from models.GCTNet import Generator, GeneratorCNN, GeneratorTransformer, Discriminator
